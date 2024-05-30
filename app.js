@@ -1,8 +1,11 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
+
 const PORT = process.env.PORT || 3001;
 
 const quotesFilePath = path.join(__dirname, "quotes.json");
