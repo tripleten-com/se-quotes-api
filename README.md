@@ -4,11 +4,11 @@ An simple API that serves up random quotes.
 
 ## Endpoints
 
-**GET https://update-the-url/quotes**
+**GET https://update-the-url/v1/quotes**
 
 Returns a JSON array containing all the quotes in our database.
 
-```json
+```jsonc
 // Example response
 [
   {
@@ -21,11 +21,11 @@ Returns a JSON array containing all the quotes in our database.
 ]
 ```
 
-**GET https://update-the-url/quotes/random**
+**GET https://update-the-url/v1/quotes/random**
 
 Returns a random quote.
 
-```json
+```jsonc
 // Example response. The quote is selected randomly.
 {
   "id": 2,
@@ -34,12 +34,12 @@ Returns a random quote.
 }
 ```
 
-**GET https://update-the-url/quotes/:id**
+**GET https://update-the-url/v1/quotes/:id**
 
 Returns a specific quote, by its ID.
 
-```json
-// Example response for https://update-the-url/quotes/3
+```jsonc
+// Example response for https://update-the-url/v1/quotes/3
 {
   "id": 3,
   "quote": "Your time is limited, don't waste it living someone else's life.",
