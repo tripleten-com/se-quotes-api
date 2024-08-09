@@ -13,9 +13,9 @@ Returns a JSON array containing all the quotes in our database.
 [
   {
     "id": 1,
-    "quote": "Life is what happens when you're busy making other plans.",
-    "author": "John Lennon"
-  },
+    "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+    "author": "Maya Angelou"
+  }
 
   // ... more quotes
 ]
@@ -29,8 +29,8 @@ Returns a random quote.
 // Example response. The quote is selected randomly.
 {
   "id": 2,
-  "quote": "The way to get started is to quit talking and begin doing.",
-  "author": "Walt Disney"
+  "quote": "True peace is not merely the absence of tension; it is the presence of justice.",
+  "author": "Martin Luther King, Jr."
 }
 ```
 
@@ -42,7 +42,7 @@ Returns a specific quote, by its ID.
 // Example response for https://se-quotes-api.onrender.com/v1/quotes/3
 {
   "id": 3,
-  "quote": "Your time is limited, don't waste it living someone else's life.",
-  "author": "Steve Jobs"
+  "quote": "Life is what happens when you're busy making other plans.",
+  "author": "John Lennon"
 }
 ```
