@@ -16,6 +16,11 @@ const getQuotes = () => {
   return JSON.parse(data);
 };
 
+// Endpoint to check ping
+app.get("/ping", (req, res) => {
+  res.status(200);
+});
+
 // Endpoint to get all quotes
 app.get("/v1/quotes", (req, res) => {
   const quotes = getQuotes();
