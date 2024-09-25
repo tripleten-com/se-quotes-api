@@ -18,7 +18,7 @@ const getQuotes = () => {
 
 // Endpoint to check ping
 app.get("/ping", (req, res) => {
-  res.status(200);
+  res.send('pong');
 });
 
 // Endpoint to get all quotes
