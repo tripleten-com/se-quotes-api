@@ -4,7 +4,7 @@ An simple API that serves up random quotes.
 
 ## Endpoints
 
-**GET https://se-quotes-api.onrender.com/v1/quotes**
+**GET se-quotes-api.en.tripleten-services.com/v1/quotes**
 
 Returns a JSON array containing all the quotes in our database.
 
@@ -21,7 +21,7 @@ Returns a JSON array containing all the quotes in our database.
 ]
 ```
 
-**GET https://se-quotes-api.onrender.com/v1/quotes/random**
+**GET se-quotes-api.en.tripleten-services.com/v1/quotes/random**
 
 Returns a random quote.
 
@@ -34,12 +34,12 @@ Returns a random quote.
 }
 ```
 
-**GET https://se-quotes-api.onrender.com/v1/quotes/:id**
+**GET se-quotes-api.en.tripleten-services.com/v1/quotes/:id**
 
 Returns a specific quote, by its ID.
 
 ```jsonc
-// Example response for https://se-quotes-api.onrender.com/v1/quotes/3
+// Example response for se-quotes-api.en.tripleten-services.com/v1/quotes/3
 {
   "id": 3,
   "quote": "Life is what happens when you're busy making other plans.",
